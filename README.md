@@ -14,4 +14,4 @@ I love VIM and I write a lot php program using VIM, so I need a php functions li
     
  - generate all the php api signature
     
-    for i in `ls /home/simon/php-chunked-xhtml/`; do python php-api-signature.py "/home/simon/php-chunked-xhtml/$i"; done;
+    for i in $(ls /home/simon/php-chunked-xhtml/); do python php-api-signature.py "/home/simon/php-chunked-xhtml/$i"; done;
