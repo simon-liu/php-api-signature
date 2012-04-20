@@ -18,12 +18,12 @@ I love VIM and I write a lot php program using VIM, so I need a php functions li
     
     the output is like this:
 
-    -abstract bool FilterIterator::accept ( void )
-    -abstract int SplHeap::compare ( mixed $value1 , mixed $value2 )
-    -abstract public array Yaf_Config_Abstract::toArray ( void )
-    -abstract public boolean ArrayAccess::offsetExists ( mixed $offset )
-    -abstract public boolean Iterator::valid ( void )
-    -......
+    - abstract bool FilterIterator::accept ( void )
+    - abstract int SplHeap::compare ( mixed $value1 , mixed $value2 )
+    - abstract public array Yaf_Config_Abstract::toArray ( void )
+    - abstract public boolean ArrayAccess::offsetExists ( mixed $offset )
+    - abstract public boolean Iterator::valid ( void )
+    - ......
 
     you can redirect the output to some file:
 
