@@ -15,3 +15,16 @@ I love VIM and I write a lot php program using VIM, so I need a php functions li
  - generate all the php api signature
     
     for i in $(ls /home/simon/php-chunked-xhtml/); do python php-api-signature.py "/home/simon/php-chunked-xhtml/$i"; done;
+    
+    the output is like this:
+
+    abstract bool FilterIterator::accept ( void )
+    abstract int SplHeap::compare ( mixed $value1 , mixed $value2 )
+    abstract public array Yaf_Config_Abstract::toArray ( void )
+    abstract public boolean ArrayAccess::offsetExists ( mixed $offset )
+    abstract public boolean Iterator::valid ( void )
+    ......
+
+    you can redirect the output to some file:
+
+    for i in $(ls /home/simon/php-chunked-xhtml/); do python php-api-signature.py "/home/simon/php-chunked-xhtml/$i" >> phpfuncs.txt; done;
